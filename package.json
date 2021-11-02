@@ -1,0 +1,17 @@
+{
+  "name": "~TODO~",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "test": "mocha **/**.spec.js",
+    "preview": "svelte-kit preview"
+  },
+  "devDependencies": {
+    "@hapi/code": "^8.0.3",
+    "@sveltejs/kit": "next",
+    "mocha": "^9.1.0",
+    "svelte": "^3.34.0"
+  },
+  "type": "module"
+}
