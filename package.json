@@ -1,17 +1,20 @@
 {
-  "name": "~TODO~",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "test": "mocha **/**.spec.js",
-    "preview": "svelte-kit preview"
-  },
-  "devDependencies": {
-    "@hapi/code": "^8.0.3",
-    "@sveltejs/kit": "next",
-    "mocha": "^9.1.0",
-    "svelte": "^3.34.0"
-  },
-  "type": "module"
+	"name": "url-shortner",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"test": "mocha src/**/**.spec.js"
+	},
+	"devDependencies": {
+		"@hapi/code": "^9.0.3",
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.10.0",
+		"mocha": "^10.2.0",
+		"svelte": "^3.55.1",
+		"vite": "^4.1.4"
+	},
+	"type": "module"
 }

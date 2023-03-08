@@ -1,0 +1,7 @@
+function shorten () {
+
+}
+
+export {
+  shorten
+}
