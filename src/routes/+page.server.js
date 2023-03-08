@@ -1,4 +1,5 @@
 import { fail } from '@sveltejs/kit'
+import { shorten } from '$lib/shorten.js'
 
 export const actions = {
 	shorten: async ({ request }) => {
