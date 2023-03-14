@@ -9,8 +9,8 @@ For example:
 
 ### Developing
 
-You can run the app with `npm run dev`
-You can run the test suite with `npm run test`
+You can run the app with `pnpm dev`
+You can run the test suite with `pnpm test`
 
 ### Stories
 
